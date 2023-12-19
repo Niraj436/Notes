@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+.notes-list{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr))
+}
+.note{
+    margin: 5px 10px 8px;
+    border-radius: 10px;
+    padding: 1rem;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    white-space: pre-wrap;
+    background: rgb(204, 209, 51)
+    
+}
+.note-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ textarea{
+    resize: none;
+    outline: none;
+    border: none;
+    background-color: skyblue;
+ }
+
+ .save{
+    border-radius: 12px;
+    border: none;
+    padding: 3px 15px;
+ }
+
+ .save:hover{
+    background-color: grey;
+ }
+ 
+ .bi-trash3-fill{
+    cursor: pointer;
+ }
+
+ .new{
+    background: skyblue;
+ }
+
+ .search{
+    display: flex;
+    margin: 25px 10px;
+    background-color: rgb(149, 145, 145);
+    border-radius: 10px;
+    padding: 7px 0px;
+ }
+
+ .input-search{
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    background-color: rgb(149, 145, 145);
+    width: 100%;
+ }
+ .bi-search{
+    padding-left: 10px;
+ }
+ .header{
+    font-size: 30px;
+    font-weight: 800;
+    padding-left: 10px;
+    padding-top: 5px;
+    
+ }
