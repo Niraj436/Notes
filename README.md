@@ -1,8 +1,31 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# NoteApp
+This is a simpe note application made using ReactJs with vite configuration. A user can save his/her notes and delete them when completed.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+
+
+
+## Demo
+
+Here is the deployed version of the website https://notes-flame-chi.vercel.app/
+
+
+
+
+## Installation
+
+
+Install this with npm
+
+```bash
+  cd my_project
+  npm install
+  npm run dev
+```
+
+
+
+    
